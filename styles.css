@@ -1,34 +1,51 @@
 /*  your css code here. If applicable */
-body{
-   background-color: rgb(135, 206, 235);
-   margin:0px;
-   padding: 0px;
+body {
+  background-color: rgb(135, 206, 235);
+  margin: 0;
+  padding: 0;
 }
-.main{
-    max-width: 800px;
-    padding:20px;
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.first para{
-    background-color: black;
-   color:white;
-	padding:10px;
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
 }
-.third para{
-    color:red;
+
+.special-paragraph {
+	color:white;
+	background:black;
+  font-size: 18px;
 }
-.list{
-    background-color: grey;
-    width:50%;
-    padding: 10px;
+
+.red-text {
+  color: red;
 }
-li:nth-child(1){
-    background-color: white;
-    font-size: 22px;;
+
+ul.custom-list {
+  list-style: none;
+  padding: 0;
 }
-li:nth-child(5){
-    background-color: white;
-    font-size: 22px;
+
+ul.custom-list li {
+  background-color: gray;
+  width: 50%;
+  padding: 10px;
 }
-li:nth-child(3){
-    background-color: pink;;
+
+ul.custom-list li:nth-child(even) {
+  background-color: white;
 }
+
+ul.custom-list li.large-font-size {
+  font-size: 22px;
+}
+
+ul.custom-list li.pretty-pink-background {
+  background-color: pink;
+}
+
