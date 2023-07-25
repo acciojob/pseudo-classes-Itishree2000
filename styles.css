@@ -12,7 +12,7 @@
 .special-paragraph {
 	color:white;
 	background:black;
-  font-size: 18px;
+  font-size:18px;
 }
 
 .red-text {
@@ -30,15 +30,15 @@ ul.custom-list li {
   padding: 10px;
 }
 
-ul.custom-list li:nth-child(even) {
+.custom-list li:nth-child(even) {
   background-color: white;
 }
 
-ul.custom-list li.large-font-size {
+.custom-list li.large-font-size {
   font-size: 22px;
 }
 
-ul.custom-list li.pretty-pink-background {
+.custom-list li.pretty-pink-background {
   background-color: pink;
 }
 
