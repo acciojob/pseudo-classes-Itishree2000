@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-body {
+*{
   background-color: rgb(135, 206, 235);
   margin: 0;
   padding: 0;
@@ -8,14 +8,7 @@ body {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
 }
-
-article {
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
 .special-paragraph {
 	color:white;
 	background:black;
